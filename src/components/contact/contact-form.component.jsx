@@ -46,11 +46,11 @@ class Contact extends React.Component{
     render(){
         const { displayName, email, message } = this.state
         return(
-            <div className='sign-up'>
+            <div className='contact-us'>
                 <h2 className='title'> Have a question ?? </h2>
                 <span> Kindly reach out to us </span>
 
-                <form className='sign-up-form' onSubmit={this.handleSubmit}>
+                <form className='contact-us-form' onSubmit={this.handleSubmit}>
                     <FormInput
                         type='text'
                         name='displayName'
