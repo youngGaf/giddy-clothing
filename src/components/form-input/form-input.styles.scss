@@ -36,6 +36,10 @@ $main-color: black;
   input[type='password'] {
     letter-spacing: 0.3em;
   }
+  input[name='message'] {
+    border: 2px solid $sub-color;
+    height: 100px;
+  }
 
   .form-input-label {
     color: $sub-color;
