@@ -29,3 +29,14 @@ export const OptionLink = styled(Link)`
     padding: 10px 15px;
     cursor: pointer;
 `;
+
+export const Watermark = styled.div`
+    position:fixed;
+    top:50px;
+    right:500px;
+    opacity:0.5;
+    z-index:99;
+    color:black;
+    font-size:50px;
+    
+`;

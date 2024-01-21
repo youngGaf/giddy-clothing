@@ -13,7 +13,8 @@ import  {
     HeaderContainer,
     LogoContainer,
     OptionsContainer,
-    OptionLink
+    OptionLink,
+    Watermark
 } from './header.styles';
 
 import { auth } from '../../firebase/firebase.utils';
@@ -44,6 +45,7 @@ const Header = ({ currentUser, hidden }) => (
             :
             <CartDropdown />
         }
+        <Watermark> DEMO E-COMMERCE REACT APP !! </Watermark>
     </HeaderContainer>
 )
 
