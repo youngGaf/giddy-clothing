@@ -53,6 +53,10 @@
             display: none;
           }
 
+          &:nth-child(4) {
+            text-align: center;
+          }
+
           &:last-child {
             width: auto;
           }
