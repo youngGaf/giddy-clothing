@@ -4,7 +4,7 @@ import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component'; 
 
 import './contact-form.styles.scss';
-import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
+
 
 class Contact extends React.Component{
     constructor(){

@@ -5,4 +5,7 @@
     justify-content: space-evenly;
     align-items: center;
     
+    @media(max-width: 568px){
+        flex-direction: column;
+     }
 }

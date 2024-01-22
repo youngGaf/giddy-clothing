@@ -6,4 +6,10 @@
     .title{
         margin: 10px 0;
     }
+
+    @media(max-width: 568px){
+        margin-top: 20px;
+        width:100%;
+        justify-items: center;
+    }
 }

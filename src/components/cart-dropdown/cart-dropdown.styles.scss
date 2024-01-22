@@ -25,5 +25,10 @@
     button {
       margin-top: auto;
     }
-  }
+
+    @media(max-width: 568px){
+      top: 250px;
+      right: 10vw;
+    }
+}
   
