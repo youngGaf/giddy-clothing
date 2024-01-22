@@ -16,5 +16,16 @@
         margin-bottom: 30px;
       }
     }
+
+    @media(max-width: 568px){
+      padding:20px 0px;
+      
+      .items {
+        display: flex;
+        flex-direction: column;
+    
+      }
+   }
+
   }
   
