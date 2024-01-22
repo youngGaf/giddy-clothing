@@ -48,22 +48,22 @@ export const OptionLink = styled(Link)`
     cursor: pointer;
 `;
 
-export const Watermark = styled.div`
-    position:fixed;
-    top:50%;
-    left:200px;
-    opacity:0.5;
-    z-index:99;
-    color:black;
-    font-size:50px;
-    white-space: nowrap;
+// export const Watermark = styled.div`
+//     position:fixed;
+//     top:50%;
+//     left:200px;
+//     opacity:0.5;
+//     z-index:99;
+//     color:black;
+//     font-size:50px;
+//     white-space: nowrap;
 
 
-    @media(max-width: 568px){
-       font-size:10px;
-       top:50%;
-       left:30%;
-       white-space: nowrap;
-    }
+//     @media(max-width: 568px){
+//        font-size:10px;
+//        top:50%;
+//        left:30%;
+//        white-space: nowrap;
+//     }
     
-`;
+//`;

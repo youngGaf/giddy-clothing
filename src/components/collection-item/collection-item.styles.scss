@@ -48,5 +48,15 @@
         width: 10%;
       }
     }
+
+
+    @media(max-width: 568px){
+      width: 70vw;
+      margin-bottom: 20px;
+      
+      .custom-button{
+        display: flex;
+      }
+    }
   }
   

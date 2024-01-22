@@ -39,5 +39,25 @@
       margin-top: 40px;
 
     }
-  }
+
+    @media(max-width: 568px){
+      width: 70vw;
+    
+      .checkout-header {
+    
+        .header-block {
+          text-transform: capitalize;
+          justify-content: space-between;
+    
+          &:nth-child(2) {
+            display: none;
+          }
+
+          &:last-child {
+            width: auto;
+          }
+        }
+      }
+    }
+}
   

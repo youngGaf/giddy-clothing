@@ -37,5 +37,15 @@
       padding-left: 12px;
       cursor: pointer;
     }
+
+    @media(max-width: 568px){
+      justify-content: space-evenly;
+      
+      .name{
+        display: none;
+      }
+    
+    
+    }
 }
   
